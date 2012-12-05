@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Sportsmodedeployment by BuonocoreL</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Sportsmodedeployment</h1>
+        <p class="header">SportsMode deployment documentation </p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/BuonocoreL/SportsModeDeployment/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/BuonocoreL/SportsModeDeployment/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/BuonocoreL/SportsModeDeployment">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/BuonocoreL">BuonocoreL</a></p>
+
+
+      </header>
+      <section>
+        <h1>2016 MVP AMINO SETUP DOCUMENTATION</h1>
+
+<p>Hardware requirements (Specific model/version #’s/vendors to come)</p>
+
+<ul>
+<li>3x Ethernet cable</li>
+<li>1x Ethernet switch</li>
+<li>Google TV</li>
+<li>TV</li>
+<li>Amino </li>
+<li>Power strip/cords implied</li>
+<li>Computer/laptop</li>
+</ul><p><strong>Note: Always connect the Ethernet cords before plugging in the power cords **
+**Need the 5 volt power supply – confirm 5V power supply vs. 9V power supply (they look identical).</strong></p>
+
+<h2>For New Amino’s only</h2>
+
+<p>When plugging in Amino’s fresh out of the box, no software is loaded. Upon plugging it into the network after an MDN/CORP IP is acquired, the Amino will automatically download Patrick Madigan’s version of the software. This will need to be updated to the ESPN Innovation of software for MVP deployment.</p>
+
+<h2>To install ESPN Innovation software</h2>
+
+<p>Hook up the GTV box, the Amino and the TV to the HDMI, Ethernet and power supplies appropriately.  Turn on the GTV, the TV and the Amino.</p>
+
+<ul>
+<li>Type: holmes.corp.espn.pvt/manageamino.php into a browser window (pc or mac)</li>
+<li>Enter the IP address of the Amino</li>
+<li>Select “MDN Image” in the Action box</li>
+<li>Click Go</li>
+<li>This will image the Amino with the Innovation image to support the MVP application.</li>
+<li>If successful, you will see an ESPN Innovation logo and upgrade successful message on the TV</li>
+<li>To confirm the image - hit the info button on the Amino remote control when you see the logo.  A screen with Serial No., IP address, Mac Address – and confirmation of the MDN deployment build on the device should display. (The ‘I’ key brings up the info screen, ‘X’ makes it go away).</li>
+<li>Label the device with version: MDN101 (hand written on tape affixed to the Amino)</li>
+<li>To get out of the info screen on the Amino, use the home button on the google remote to bring up the “Use X app to start” box.  Select ESPN app from the list.</li>
+</ul><h2>Pairing the Amino device on the 2016 GTV app</h2>
+
+<ul>
+<li>Activate the GTV app</li>
+<li>Open the menu in the app using the menu key on the GTV remote and select “Settings”.</li>
+<li>Select Advanced preference </li>
+<li>PW “12345” in the PW field</li>
+<li>Select Pairing settings</li>
+<li>Select ‘Pairing’ under Device pairing settings</li>
+<li>Select Pairing device and chose the Amino option </li>
+<li>Select Pairing device identifier and enter the serial number (case sensitive) from the label on the Amino Device</li>
+<li>‘OK’</li>
+<li>Back out of Advanced preference menu and confirm the GTV remote can be used to tune the TV.</li>
+</ul><p>To get the IP address on the Amino – if it doesn’t come up on the screen after plugging the Amino in</p>
+
+<ul>
+<li>Go into Infoblox page (web browser) https://infoblox</li>
+<li>Enter your corp credentials into the UN and PW fields to login</li>
+<li>Use the search feature to enter the mac address of the Amino (with colons) and click search.  This should return the IP address for the box.</li>
+</ul><p>To check the version on the Amino, plug the Amino in, click the info button, determine the build on the Amino. </p>
+
+<p>User will not need the Amino remote; all control is managed with the GTV remote.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
